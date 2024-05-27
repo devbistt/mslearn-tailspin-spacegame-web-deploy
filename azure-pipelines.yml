@@ -125,7 +125,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: 'Resource Manager - Tailspin - Space Game'
+              azureSubscription: 'serviceconnect-azure-Space Game - web - Multistage'
               appType: webAppLinux
               appName: '$(WebAppNameTest)'
               resourceGroupName: 'tailspin-space-game-rg'
